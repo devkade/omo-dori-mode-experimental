@@ -13,7 +13,7 @@ It ships as a skill (`skills/dori-mode/SKILL.md` plus references) and a small bu
 ## Install
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sisyphuslabs/omo-dori-mode-experimental/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devkade/omo-dori-mode-experimental/main/install.sh | bash
 ```
 
 This clones the repo to `~/.dori/src`, links the skill into `~/.agents/skills/dori-mode`, puts `dori` on your PATH with `bun link`, and copies an example config to `~/.dori/config.json`. Set `SKILLS_DIR` if your agent loads skills from somewhere else.

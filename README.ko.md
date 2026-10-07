@@ -13,7 +13,7 @@ Dori 모드는 코딩 에이전트 세션 하나를 늘 켜져 있는 메신저 
 ## 설치
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sisyphuslabs/omo-dori-mode-experimental/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devkade/omo-dori-mode-experimental/main/install.sh | bash
 ```
 
 저장소를 `~/.dori/src`에 받고, 스킬을 `~/.agents/skills/dori-mode`에 링크하고, `bun link`로 `dori`를 PATH에 올리고, 예시 설정을 `~/.dori/config.json`에 복사합니다. 에이전트가 다른 곳에서 스킬을 읽는다면 `SKILLS_DIR`를 지정하세요.

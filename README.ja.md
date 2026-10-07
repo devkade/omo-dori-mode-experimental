@@ -13,7 +13,7 @@ Dori モードは、コーディングエージェントのセッションひと
 ## インストール
 
 ```sh
-curl -fsSL https://raw.githubusercontent.com/sisyphuslabs/omo-dori-mode-experimental/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/devkade/omo-dori-mode-experimental/main/install.sh | bash
 ```
 
 リポジトリを `~/.dori/src` に取得し、スキルを `~/.agents/skills/dori-mode` にリンクし、`bun link` で `dori` を PATH に通し、設定の例を `~/.dori/config.json` にコピーします。エージェントが別の場所からスキルを読む場合は `SKILLS_DIR` を指定してください。
